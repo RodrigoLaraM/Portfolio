@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<!-- <div class="profile">
+    <div id="profile-picture" class="profile-picture">
+        <img src="/static/img/logo.jpg">
+    </div>
+    <h1>{{ title }}</h1>
+</div>
+-->
+<div class="title">
+    <h1> RODRIGO LARA </h1>
+    <pre><code><h2>Data Scientist
+    </h2></code></pre>
+</div>
+
+<div class="team">
+    {% for fellow in fellows %}
+    <div class="container">
+        <img src="{{ fellows[fellow]['image'] }}" class="proimage">
+        </div> 
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

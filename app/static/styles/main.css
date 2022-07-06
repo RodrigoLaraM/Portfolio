@@ -1,0 +1,334 @@
+h1 {
+    font-family: 'Encode Sans', sans-serif;
+    color: white;
+    font-size: 100px;
+    text-align: right;
+    padding-right: 75px;
+    padding-top: 100px;
+    margin: 0px;
+}
+h2 {
+    font-family: 'Encode Sans', sans-serif;
+    color: #182EA4;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 75px;
+    margin: 0px;
+}
+h3 {
+    font-family: 'JetBrains Mono', monospace;
+    color: #182EA4;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0px;
+    position: absolute;
+}
+h4 {
+    font-family: 'JetBrains Mono', monospace;
+    color: #182EA4;
+    font-size: 50px;
+}
+h5 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+}
+h6 {
+    font-family: 'Encode Sans', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    margin: 0px;
+}
+h10 {
+    font-family: 'JetBrains Mono', monospace;
+    color: #727272;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+h11 {
+    font-family: 'JetBrains Mono', monospace;
+    color: #727272;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+p {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-size: 20px;
+}
+.p {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-size: 20px;
+    width:100%;
+}
+h7 {
+    font-family: 'JetBrains Mono', monospace;
+    color:#ffffff ;
+    font-size: 20px;
+}
+
+a {
+    color: white;  
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: #182EA4;
+}
+button {
+    background: none;
+    border: none;
+    width:10%;
+}
+
+pre {
+    padding: 0 0 0 0;
+}
+
+body {
+    background-color: #31847d;
+    background-size: cover;
+    width: auto; 
+    overflow-x: hidden;
+    font-family: "Roboto", serif;
+    margin: 0px;
+}
+
+.nav-bar {
+    width: 100%;
+    display: inline-block;
+    background-color: #000000;
+    font-family: "Roboto", serif;
+    font-weight: 700 !important;
+    padding-top: 0px;
+    border-bottom: medium solid #5a398f;
+}
+
+.nav-content .logo-touch-target {
+    display: inline-flex;
+    height: 60%;
+    width: 350px;
+}
+
+.nav-content .nav-logo {
+    height: 60px;
+    margin: auto;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.nav-logo img {
+    width: 200px;
+}
+
+.nav-content nav {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 0px;
+    color: white;
+}
+
+.nav-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    padding: 20px 0px 50px 0px;
+    height: 150px;
+    background-color: #7689F1;
+}
+
+.banner .logo {
+    max-width:180px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+}
+
+.banner .title {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+.moreabout {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.education {
+    width: 100%;
+    background-color: #18453b;
+    padding: 30px 0px 30px 30px;
+}
+
+.experience {
+    width: 100%;
+    padding: 30px 0px 30px 30px;
+}
+
+.hobbies {
+    width: 100%;
+}
+
+.hobbies .fellow {
+    padding:30px;
+}
+
+.fellow .hobby {
+    margin: 30px;
+    display: flex;
+    align-items:center;
+}
+
+.hobbies a {
+    color: #182EA4;  
+}
+.hobbies a:link {
+    text-decoration: none;
+}
+.hobbies a:hover {
+    color: white;
+}
+
+.hobbies img {
+    margin: 0px 30px;
+    max-width:20%;
+    height:auto;
+}
+.box {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.box2 {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 1%;
+}
+
+.box:hover {
+    background-color: #FECD6A;
+}
+
+.box2:hover {
+    background-color: #FECD6A;
+}
+
+h8 {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-size: 42px;
+ }
+
+.title {
+    height: fit-content;
+}
+
+.profilepic {
+    border-radius: 25px;
+    height: 250px;
+    width: 250px;
+}
+
+.team {
+    width: 100%;
+    height: fit-content;
+    padding: 30px 0px 30px 0px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    padding-bottom: 300px;
+
+}
+
+.proimage {
+    height: 700px;
+    width: 700px;
+    border-radius: 25px;
+}
+
+.container {
+    width: 250px;
+    height: 250px;
+    margin-top: -250px;
+}
+  
+.text {
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+}
+
+.teamtext {
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.projects {
+    width: 100%;
+}
+
+.projects .fellow {
+    padding:30px;
+}
+
+.fellow .proj {
+    margin: 30px;
+    display: flex;
+    align-items:center;
+}
+
+.projects a {
+    color: #182EA4;  
+}
+.projects a:link {
+    text-decoration: none;
+}
+.projects a:hover {
+    color: white;
+}
+
+.projects img {
+    margin: 0px 30px;
+    max-width:40%;
+    height:auto;
+}
