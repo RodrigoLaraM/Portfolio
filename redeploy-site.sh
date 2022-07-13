@@ -1,4 +1,4 @@
-cd personal-portfolio
+cd Portfolio
 git fetch && git reset origin/main --hard
 virtualenv env
 source env/bin/activate
