@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap%27');
+
+body, html {
+    background-color: #000000;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "Share Tech", serif;
+    margin: 0px;
+}
+
+.content {  /* Centers the form */
+    display: block;
+    text-align: center;
+}
+
+h1 {  
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+table {
+    margin-left: auto;  /* Centers the table */
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+    font-size: 30px;
+    padding: 20px;
+}
+
+td {
+    font-size: 20px;
+    padding: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid rgb(255, 255, 255);
+    background: black;
+    color: white;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+::placeholder {
+    color: white;
+}
+
+button[type=submit] {
+    padding: 3px;
+    border: 2px solid rgb(255, 255, 255);
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

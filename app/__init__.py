@@ -193,4 +193,7 @@ def get_time_line_post():
             for p in TimelinePost.select().order_by(TimelinePost.created_at.desc())
         ]
     }
-    
+
+@app.route('/timeline')
+def timeline():
+    return render_template('timeline.html', title="Timeline", timeline=get_time_line_post())
