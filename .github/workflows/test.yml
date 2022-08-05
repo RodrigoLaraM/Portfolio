@@ -29,7 +29,7 @@ jobs:
           source env/bin/activate
 
       - name: Install Dependencies
-        run: python3-virtualenv/bin/pip install -r requirements.txt
+        run: env/bin/pip install -r requirements.txt
 
       - name: Run Tests
         run: ./run_test.sh
