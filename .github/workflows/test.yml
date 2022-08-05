@@ -23,15 +23,10 @@ jobs:
           python-version: "3.6.8"
 
       - name: Setup Python venv
-        run: |
-          pip install virtualenv
-          virtualenv env
-          source env/bin/activate
+        run: python -m venv python3-virtualenv
 
       - name: Install Dependencies
-        run: env/bin/pip install -r requirements.txt
+        run: python3-virtualenv/bin/pip install -r requirements.txt
 
       - name: Run Tests
-        run: |
-          chmod +x run_test.sh
-          ./run_test.sh
+        run: ./run_test.sh
